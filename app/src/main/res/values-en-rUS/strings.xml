@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">いまチカ</string>
+    <string name="title">title</string>
+    <string name="login">Sign Up</string>
+    <string name="exit">Exit</string>
+    <string name="register">Sign Up</string>
+    <!--<string name="registerOrLogin">注册或登录</string>-->
+    <string name="userInfo">Profile</string>
+    <string name="cancel">Cancel</string>
+    <string name="home">Home</string>
+    <string name="chat">Messages</string>
+    <string name="add">Submission</string>
+    <string name="address">adress</string>
+    <string name="me">Me</string>
+    <string name="search">Search</string>
+    <string name="name">Name</string>
+    <string name="message">No news</string>
+    <string name="contact">Most recent contact</string>
+    <string name="hint">Add a caption</string>
+    <string name="near">People nearby</string>
+    <string name="error">Network request failed, please check network connection</string>
+    <string name="register_title">Sign up</string>
+    <string name="login_info">After the note\nArtificial intelligence society academic lesson positive appetite\nJoyful human additive sum management\nWatashiri Shimbun Talent Exchange\nThe recommended object activity is notified via email this week.\nFor domestic use outside of Japan</string>
+    <string name="FaceBook">Facebook Sign Up</string>
+    <string name="Google"> Google Sign Up</string>
+    <string name="Line">Line Sign Up</string>
+    <string name="Mail">Email Sign Up</string>
+    <string name="treaty_">and</string>
+    <string name="treaty">I agree</string>
+    <string name="company_email">Copyright © imachika.com</string>
+    <string name="web_url1">Terms of use</string>
+    <string name="web_url2">Privacy policy</string>
+    <string name="new_notice">New inbreaking notification</string>
+    <string name="no_datas">No Results for</string>
+    <string name="no_datas_b"></string>
+    <string name="commend_one">Today, an event to be held near here this wee</string>
+    <string name="commend_two">Nearby outings sightseeing</string>
+    <string name="commend_three">Nearby restaurants</string>
+    <string name="commend_four">Nearby coffee shop</string>
+    <string name="commend_five">Nearby shopping</string>
+
+    <string name="toast_location">Your location can not be found, please allow access by location setting</string>
+    <string name="toast_close_app">Press again to exit the program</string>
+    <string name="toast_publish">Released successfully</string>
+    <string name="toast_report">Reported</string>
+    <string name="toast_review">Please enter your review</string>
+    <string name="photo">Image</string>
+
+    <!-- 商户详情页面 -->
+    <string name="open_map">Navigation</string>
+    <string name="share">Share</string>
+    <string name="hint_content">Content is hidden</string>
+    <string name="jubao">Report</string>
+    <string name="detail_jubao">Report</string>
+    <string name="hint_item">Hide</string>
+    <string name="show_item">Display</string>
+    <string name="re_review">Reply</string>
+    <string name="zan">Like</string>
+    <string name="author">Contributors</string>
+    <string name="review">Review</string>
+    <string name="cancle_collect">Cancel collection</string>
+    <string name="collect">Collection</string>
+    <string name="phone_num">Call</string>
+    <string name="talk">Talk</string>
+    <string name="re_review_hint">Comment</string>
+    <string name="send">Send</string>
+    <string name="map">Map</string>
+    <string name="list">List</string>
+    <string name="evaluate_review_hint">Add a comment</string>
+    <string name="search_hint_content">Coffee shops, events, hot springs...</string>
+    <string name="search_hint_add">Address</string>
+    <string name="search_hint_add_now">Current Location</string>
+    <string name="opening_time">Industry time:</string>
+    <string name="sort_share">Share</string>
+
+    <!-- 登录页面 -->
+    <string name="login_title">Log in</string>
+    <string name="hint_num">Email</string>
+    <string name="hint_psd">Password</string>
+    <string name="FaceBook_reg">Facebook log in</string>
+    <string name="Google_reg"> Google log in</string>
+    <string name="Line_reg">Line log in</string>
+
+    <!-- report -->
+    <string name="report_content">Please select the reason for reporting</string>
+    <string name="report_case_1">scam</string>
+    <string name="report_case_2">mischief</string>
+    <string name="report_case_3">This is not true</string>
+    <string name="report_case_4">Piracy</string>
+    <string name="report_case_5">Minor</string>
+    <string name="report_case_6">Other</string>
+    <string name="report_pic">Evidence photo</string>
+    <string name="report_con_hint">More details</string>
+
+    <!-- facebook app id -->
+    <string name="facebook_app_id">2008632952691077</string>
+    <string name="fb_login_protocol_scheme">fb2008632952691077</string>
+
+    <string name="login_check_tost">Need to agree terms and policies</string>
+    <string name="login_email">Already have an account</string>
+    <!-- google -->
+    <string name="google_server_client_id">37459863309-lk3brhftvm4bp3kfc81ltj85r5kjn2j2.apps.googleusercontent.com</string>
+    <!--<string name="fb_login_protocol_scheme">fb2008632952691077</string>-->
+
+    <!-- 投稿 -->
+
+    <string name="submit_title_one">店铺</string>
+    <string name="submit_title_two">個人サービス</string>
+    <string name="submit_title_three">イベント</string>
+    <string name="pic_con">タイトル</string>
+    <string name="submit_hint_one">Enter the details here</string>
+    <string name="submit_hint_two"> 検索されたいキーワードを複数入力 \n (例：ワイン，サークル，主婦向け)</string>
+    <string name="submit_show">詳細入力</string>
+    <string name="submit_hint">詳細入力を隠す</string>
+    <string name="submit_price_hint">価格（数字を入力してください、単位：円）</string>
+    <string name="submit_start_time_hint">開始時間</string>
+    <string name="submit_end_time_hint">終了時間</string>
+    <string name="submit_tel_hint">店舗電話番号</string>
+    <string name="submit_phone_hint">本人の携帯電話(非公開)</string>
+    <string name="submit_publish">掲載</string>
+    <string name="submit_useasda">カテゴリ</string>
+    <string name="submit_place">場所</string>
+    <string name="net_bad_retry">We could not access the Internet</string>//网络异常
+    <string name="toast_bad_email">Postal Box Tamper Incorrect</string>
+    <string name="toast_null_email">E-mail or password can not be empty</string>
+
+    <!-- Me -->
+    <string name="me_collect">Favorite</string>
+    <string name="me_version">Version Information</string>
+    <string name="me_title">Me</string>
+    <string name="takePhoto">Camera</string>
+    <string name="selectPhoto">Album</string>
+    <string name="cancel_img">Cancel</string>
+    <string name="ok_img">OK</string>
+    <string name="save">Save</string>
+    <string name="save_success">Save success</string>
+    <string name="userInfo_img">Photo</string>
+    <string name="userInfo_name">Name</string>
+    <string name="userInfo_sex">Sex</string>
+    <string name="userInfo_male">Male</string>
+    <string name="userInfo_female">Female</string>
+    <string name="userInfo_tel">Phone number</string>
+    <string name="userInfo_address">Address</string>
+    <string name="userInfo_sign">Signature</string>
+    <string name="complete">Complete</string>
+
+    <string name="toast_login_psd_error">Password error</string>
+    <string name="toast_login_not_reg">Email user is not registered</string>
+    <string name="toast_login_email_error">Email is malformed</string>
+    <string name="toast_login_user_registered">Email user already exists</string>
+
+    <string name="collection_none">I do not have any favorites yet</string>
+
+    <!--"TabKey1.text" = "Home";-->
+    <!--"TabKey2.text" = "Messages";-->
+    <!--"TabKey3.text" = "Submission";-->
+
+    <!--"SearchholderKey.text" = "Coffee shops, events, hot springs...";-->
+    <!--"SearchAddressholderKey.text" = "address";-->
+
+    <!--"CurrentAddressholderKey.text" = "Current Location";-->
+    <!--"MapKey.text" = "map";-->
+    <!--"ShareKey.text" = "share";-->
+    <!--"ReportKey.text" = "report";-->
+    <!--"ListKey.text" = "List";-->
+    <!--"CancelKey.text" = "Cancel";-->
+    <!--"OKKey.text" = "OK";-->
+    <!--"qianmingKey.text" = "Signature";-->
+    <!--"RegionKey.text" = "Region";-->
+    <!--"blacklistKey.text" = "blacklist";-->
+    <!--"blacklist1Key.text" = "whitelist";-->
+    <!--"blackinfoKey.text" = "Join the blacklist, you will no longer receive each other's news";-->
+    <!--"pinglunKey.text" = "Review";-->
+    <!--"shopKey.text" = "Shop Management";-->
+    <!--"guanzhu1Key.text" = "following";-->
+    <!--"guanzhu2Key.text" = "follow";-->
+    <!--"xiangxiKey.text" = "Profile";-->
+    <!--"shop1Key.text" = "Store claim";-->
+    <!--"shop2Key.text" = "Certificationing";-->
+    <!--"shop3Key.text" = "Manage Store";-->
+    <!--"daohangKey.text" = "navigation";-->
+    <!--"uploadPhotoKey.text" = "Add Photo";-->
+
+    <!--"zanKey.text" = "like";-->
+    <!--"pinglunKey.text" = "reply";-->
+    <!--"callKey.text" = "call";-->
+    <!--"shoucang2Key.text" = "unCollection";-->
+    <!--"shoucang1Key.text" = "Collection";-->
+    <!--"hide1Key.text" = "hide";-->
+    <!--"hide2Key.text" = "show";-->
+    <!--"hide3Key.text" = "Content is hidden";-->
+    <!--"photo1Key.text" = "Camera";-->
+    <!--"photo2Key.text" = "Album";-->
+    <!--"commnetKey.text" = "review";-->
+
+    <!--"tuijian1Key.text" = "Today, an event to be held near here this wee";-->
+    <!--"tuijian2Key.text" = "Nearby outings sightseeing";-->
+    <!--"tuijian3Key.text" = "Nearby restaurants";-->
+    <!--"tuijian4Key.text" = "Nearby coffee shop";-->
+    <!--"tuijian5Key.text" = "Nearby shopping";-->
+
+    <!--"AuthorKey.text" = "Author";-->
+    <!--"title1Key.text" = "Shop";-->
+    <!--"title2Key.text" = "Personal service";-->
+    <!--"title3Key.text" = "Event";-->
+    <!--"titleKey.text" = "title";-->
+    <!--"categoryKey.text" = "category";-->
+    <!--"starttimeKey.text" = "Start time";-->
+    <!--"endtimeKey.text" = "End time";-->
+    <!--"shoptel1Key.text" = "Shop Telephone";-->
+    <!--"shoptel2Key.text" = "Personal phone (secrecy)";-->
+    <!--"addressKey.text" = "address";-->
+    <!--"hide1tagKey.text" = "Detailed input";-->
+    <!--"hide2tagKey.text" = "Hide detailed input";-->
+    <!--"taginfoKey.text" = " Multiple keywords to be searched \n (Example: wine, circle, for housewives)";-->
+    <!--"detailinfoKey.text" = " Enter the details here";-->
+    <!--"submitKey.text" = "submit";-->
+    <!--"PriceKey.text" = "price（Please enter a number, unit：円）";-->
+    <!--"finshKey.text" = "submit";-->
+    <!--"addcommentKey.text" = "Add a comment";-->
+    <!--"sendKey.text" = "Send";-->
+    <!--"sendinfoKey.text" = "comment";-->
+    <!--"mecollectKey.text" = "favorite";-->
+    <!--"meMemberKey.text" = "Membership card／stamp card";-->
+    <!--"meguanzhuKey.text" = "Follow Me";-->
+    <!--"mefabuKey.text" = "My submission";-->
+    <!--"mefabu1Key.text" = "His release";-->
+    <!--"mescanKey.text" = "Scan";-->
+    <!--"mesetKey.text" = "Settings";-->
+    <!--"set1Key.text" = "Receive notification";-->
+    <!--"set2Key.text" = "Sound";-->
+
+    <!--"list1Key.text" = "Edit";-->
+    <!--"list2Key.text" = "Delete";-->
+    <!--"list3Key.text" = "Public";-->
+    <!--"list4Key.text" = "Private";-->
+
+    <!--"metitleKey.text" = "Profile";-->
+    <!--"me1Key.text" = "Avatar";-->
+    <!--"me2Key.text" = "Name";-->
+    <!--"me3Key.text" = "MY QR Code";-->
+    <!--"me4Key.text" = "Sex";-->
+    <!--"me5Key.text" = "phone number";-->
+    <!--"me6Key.text" = "signature";-->
+
+    <!--"exitKey.text" = "Exit";-->
+    <!--"exitinfoKey.text" = "You want to quit the current user？";-->
+    <!--"sex1Key.text" = "male";-->
+    <!--"sex2Key.text" = "female";-->
+    <!--"baocunKey.text" = "save";-->
+    <!--"baocun1Key.text" = "Saved";-->
+
+    <!--"loginKey.text" = "Login";-->
+    <!--"registerKey.text" = "Regist";-->
+    <!--"EmailregisterKey.text" = "Mail Regist";-->
+    <!--"EmailKey.text" = "mail address";-->
+    <!--"EmailpassKey.text" = "password";-->
+    <!--"login1Key.text" = "Login";-->
+    <!--"guize1Key.text" = "I agree to the Terms of Service and Privacy Policy";-->
+    <!--"guize2Key.text" = "Terms of Service";-->
+    <!--"guize3Key.text" = " Privacy Policy";-->
+    <!--"register1Key.text" = "Regist";-->
+    <!--"register2Key.text" = "Regist";-->
+    <!--"PassresetKey.text" = "Forgot Password";-->
+    <!--"sendEmailKey.text" = "Send Email";-->
+    <!--"codeKey.text" = "authentication code";-->
+
+    <!--"pass1Key.text" = "Please enter a new password";-->
+    <!--"pass2Key.text" = "Please enter your new password again";-->
+    <!--"pass3Key.text" = "Change Password";-->
+    <!--"backKey.text" = "Previous";-->
+    <!--"Emailregister1Key.text" = "Mail Regist";-->
+    <!--"RegisterinfoKey.text" = "After the note\nArtificial intelligence society academic lesson positive appetite\nJoyful human additive sum management\nWatashiri Shimbun Talent Exchange\nThe recommended object activity is notified via email this week.\nFor domestic use outside of Japan";-->
+
+    <!--//登录-->
+    <!--"loginerror1Key.text" = "password error";-->
+    <!--"loginerror2Key.text" = "email user is not registered";-->
+    <!--"loginerror3Key.text" = "email is malformed";-->
+    <!--"loginerror4Key.text" = "email user already exists";-->
+    <!--"loginerror5Key.text" = "verification code error";-->
+    <!--"RequestErrorKey.text" = "We could not access the Internet";-->
+    <!--"NotCommentKey.text" = "There are no reviews yet";-->
+    <!--"RemakeKey.text" = "Retake";-->
+    <!--"UsephotoKey.text" = "Use Photo";-->
+    <!--"guize4Key.text" = "Need to agree terms and policies";-->
+
+    <!--"logininfo1Key.text" = "Please enter your email";-->
+    <!--"logininfo2Key.text" = "password can not be blank";-->
+    <!--"logininfo3Key.text" = "Authentication code has been sent, please check your email";-->
+    <!--"logininfo4Key.text" = "Next";-->
+    <!--"logininfo5Key.text" = "please enter verification code";-->
+    <!--"logininfo6Key.text" = "New password does not match";-->
+    <!--"logininfo7Key.text" = "verification code error";-->
+    <!--"logininfo8Key.text" = "Password has been reset, please login";-->
+    <!--"logininfo9Key.text" = "Please enter your name";-->
+    <!--"info1Key.text" = "Successfully posted";-->
+    <!--"info2Key.text" = "Please enter your review";-->
+    <!--"info3Key.text" = "Picture preservation successful";-->
+    <!--"info4Key.text" = "upload Successful";-->
+    <!--"info5Key.text" = "Let's share it to your friends";-->
+
+    <!--"jubao1Key.text" = "scam";-->
+    <!--"jubao2Key.text" = "mischief";-->
+    <!--"jubao3Key.text" = "It is not true";-->
+    <!--"jubao4Key.text" = "Copyright infringement";-->
+    <!--"jubao5Key.text" = "Underage Adult";-->
+    <!--"jubao6Key.text" = "Othe";-->
+    <!--"jubao7Key.text" = "Please select the reason for reporting";-->
+    <!--"jubao8Key.text" = "Evidence photo";-->
+    <!--"jubao9Key.text" = "Details";-->
+    <!--"jubao10Key.text" = "Please select the cause of the complaint";-->
+    <!--"jubao11Key.text" = "Reported";-->
+
+    <!--"near1Key.text" = "Cleared my location";-->
+    <!--"near2Key.text" = "Clear the location and exit";-->
+    <!--"near3Key.text" = "Clear location information, others will not be able to see you？";-->
+    <!--"near4Key.text" = "all";-->
+    <!--"near5Key.text" = "only boys";-->
+    <!--"near6Key.text" = "only girls";-->
+    <!--"nearKey.text" = "Nearby Peoples";-->
+
+    <!--"near11Key.text" = "There are no people nearby";-->
+    <!--"near12Key.text" = "No Results for";-->
+    <!--"near13Key.text" = "";-->
+    <!--"near14Key.text" = "I do not have any favorites yet";-->
+    <!--"near15Key.text" = "Demonic subscription story note";-->
+
+    <!--"setting1Key.text" = "Settings";-->
+    <!--"setting2Key.text" = "Would you like to turn on notifications to receive messages or nearby event information?";-->
+    <!--"setting3Key.text" = "Access to the album is necessary";-->
+    <!--"setting4Key.text" = "Your location can not be found, please allow access by location setting";-->
+
+    <!--"huiyuan1Key.text" = "Member";-->
+    <!--"huiyuan2Key.text" = "Coupon";-->
+    <!--"info11Key.text" = "I have not been followed yet";-->
+    <!--"info12Key.text" = "I have not followed you yet";-->
+    <!--"info13Key.text" = "I have not released yet";-->
+    <!--"info14Key.text" = "Submission";-->
+
+</resources>

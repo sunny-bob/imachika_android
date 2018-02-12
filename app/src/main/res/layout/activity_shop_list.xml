@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.itmg.imachika.ui.ShopListActivity">
+
+   <include layout="@layout/include"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/map"/>
+
+        <LinearLayout
+            android:id="@+id/layout_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/title_list"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_centerVertical="true"
+                android:scrollbars="none"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gray"></View>
+
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:scrollbars="none"
+                />
+
+            <LinearLayout
+                android:id="@+id/shop_list_no_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/padding_140"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/padding_40"
+                    android:gravity="center"
+                    android:text="@string/no_datas"/>
+
+                <TextView
+                    android:id="@+id/no_data_cat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/padding_40"
+                    android:gravity="center"
+                    android:text=""/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/padding_40"
+                    android:gravity="center"
+                    android:text="@string/no_datas_b"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/bussiness_list_sort_lv"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_alignParentRight="true"
+            android:divider="@null"
+            android:background="@color/title_bg"
+            android:alpha="0.8"
+            android:visibility="gone"
+            >
+
+        </ListView>
+
+    </RelativeLayout>
+
+</LinearLayout>

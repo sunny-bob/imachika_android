@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itmg.imachika">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 位置权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <!-- 手机状态权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <!-- 读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask" android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.NearActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.SearchActivity"
+            android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.ShopListActivity"
+            android:launchMode="standard" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.ContentActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.RegisterActivity"
+            android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.EmailRegActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.MeActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.LoginActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.UserInfoActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.VersionInfoActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.WebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".WelComeActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ConcernActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.NewNoticeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.UserHomePageActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.ChatActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.ReportActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.CoverActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.ShopDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
+        <activity android:name=".ui.EvaluateActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.ImageDetailActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.MapsActivity" android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".ui.EditUserInfoActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ui.CollectionActivity" android:screenOrientation="portrait"></activity>
+        <!-- 谷歌地图 -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBWpmySJK-orJM4WW2PCuI-vnO0HLx_n7E" />
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!--<uses-library android:name="com.google.android.maps" />-->
+
+        <!-- facebook 登录 -->
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <!-- line 登录 -->
+        <!-- LINE SDK Settings -->
+        <!--<activity-->
+            <!--android:name="jp.line.android.sdk.activity.LineAuthCompleteActivity"-->
+            <!--android:configChanges="keyboard|orientation"-->
+            <!--android:exported="true"-->
+            <!--android:screenOrientation="sensor" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+
+                <!--<data android:scheme="line.1559130921" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name="jp.line.android.sdk.activity.WebLoginActivity"-->
+            <!--android:configChanges="keyboard|orientation"-->
+            <!--android:exported="false"-->
+            <!--android:screenOrientation="sensor" >-->
+        <!--</activity>-->
+        <meta-data  android:name="jp.line.sdk.ChannelId"  android:value="1559243726" />
+        <meta-data  android:name="jp.line.sdk.AuthScheme"   android:value="line.1559243726" />
+
+    </application>
+
+    <!--接收单图-->
+    <intent-filter>
+        <action android:name="android.intent.action.SEND"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="image/*"/>
+    </intent-filter>
+    <!--接收文本-->
+    <intent-filter>
+        <action android:name="android.intent.action.SEND"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="text/plain"/>
+    </intent-filter>
+    <!--接收多图-->
+    <intent-filter>
+        <action android:name="android.intent.action.SEND_MULTIPLE"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="image/*"/>
+    </intent-filter>
+
+    <intent-filter android:priority="0" >
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="geo" />
+    </intent-filter>
+
+</manifest>

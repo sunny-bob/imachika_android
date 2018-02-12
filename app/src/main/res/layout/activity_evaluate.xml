@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_bg"
+        android:padding="@dimen/padding_5"
+        >
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/padding_30"
+            android:layout_height="@dimen/padding_30"
+            android:layout_centerVertical="true"
+            android:src="@drawable/go_back" />
+
+        <TextView
+            android:id="@+id/tv_conform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_10"
+            android:text="@string/complete"
+            android:visibility="visible"
+            android:textColor="@color/weChat_bg"
+            android:textSize="@dimen/text_size_18"
+            />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:ems="11"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_18"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/padding_10"
+                android:layout_marginRight="@dimen/padding_10"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:id="@+id/evaluate_iv"
+                        android:layout_width="@dimen/padding_80"
+                        android:layout_height="@dimen/padding_80"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:scaleType="centerCrop"
+                        android:background="@color/gray"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/evaluate_iv"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/evaluate_name_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/padding_5"
+                            android:text=""
+                            android:textSize="@dimen/text_size_16"
+                            android:textColor="@color/black"/>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            >
+                            <android.support.v7.widget.AppCompatRatingBar
+                                android:id="@+id/evaluate_ratingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:numStars="5"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                style="@style/roomRatingBar_1"
+                                android:stepSize="1"
+                                android:isIndicator="false"
+                                />
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/line"></View>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    >
+
+                    <com.itmg.imachika.view.MyGridView
+                        android:id="@+id/evaluate_gv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:numColumns="4"
+                        android:horizontalSpacing="@dimen/padding_10"
+                        android:verticalSpacing="@dimen/padding_10"
+                        android:scrollbars="none"
+                        android:visibility="gone"
+                        ></com.itmg.imachika.view.MyGridView>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_5"
+                        android:layout_below="@+id/evaluate_gv">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/evaluate_et"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:gravity="left|top"
+                                android:layout_marginTop="@dimen/padding_10"
+                                android:layout_marginBottom="@dimen/padding_10"
+                                android:background="@null"
+                                android:textSize="@dimen/text_size_16"
+                                android:hint="@string/evaluate_review_hint"/>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/line"></View>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_10">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FaceBook"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_18"
+                        />
+                    <Switch
+                        android:id="@+id/evaluate_FaceBook_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Twitter"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_18"
+                        />
+
+                    <Switch
+                        android:id="@+id/evaluate_twitter_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

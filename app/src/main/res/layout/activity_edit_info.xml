@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_bg"
+        android:padding="@dimen/padding_5"
+        >
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/padding_30"
+            android:layout_height="@dimen/padding_30"
+            android:layout_centerVertical="true"
+            android:src="@drawable/go_back" />
+
+        <TextView
+            android:id="@+id/edit_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_20"
+            android:text="@string/save"
+            android:visibility="visible"
+            android:textColor="@color/weChat_bg"
+            android:textSize="@dimen/text_size_18"
+            />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:ems="11"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_18"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/padding_20"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/title_bg"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10">
+
+            <EditText
+                android:id="@+id/edit_info_et"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_40"
+                android:textColorHint="@color/title_bg"
+                android:textSize="@dimen/text_size_18"
+                android:text=""
+                android:textColor="@color/black"
+                android:background="@null"/>
+
+            <ImageView
+                android:id="@+id/edit_location_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_5"
+                android:visibility="gone"
+                android:background="@drawable/location"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/title_bg"></View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_tel_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/padding_20"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/title_bg"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10">
+
+            <EditText
+                android:id="@+id/edit_tel_et"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_40"
+                android:textColorHint="@color/title_bg"
+                android:textSize="@dimen/text_size_18"
+                android:inputType="number"
+                android:maxLength="11"
+                android:background="@null"
+                android:textColor="@color/black"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/title_bg"></View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_sex_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/padding_20"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/title_bg"></View>
+
+        <RelativeLayout
+            android:id="@+id/edit_male_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_40"
+                android:text="@string/userInfo_male"
+                android:textSize="@dimen/text_size_18"
+                android:textColor="@color/black"
+                />
+
+            <CheckBox
+                android:id="@+id/edit_cb_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_5"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/title_bg"></View>
+
+        <RelativeLayout
+            android:id="@+id/edit_female_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_40"
+                android:textSize="@dimen/text_size_18"
+                android:text="@string/userInfo_female"
+                android:textColor="@color/black"
+                />
+
+            <CheckBox
+                android:id="@+id/edit_cb_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_5"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/title_bg"></View>
+
+    </LinearLayout>
+
+</LinearLayout>

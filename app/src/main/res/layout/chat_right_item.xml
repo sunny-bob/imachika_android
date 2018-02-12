@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10"
+        >
+        <ImageView
+            android:id="@+id/head_view"
+            android:layout_width="@dimen/padding_40"
+            android:layout_height="@dimen/padding_40"
+            android:src="@drawable/xiaoming"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_sender_bg"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:paddingTop="@dimen/padding_3"
+            android:paddingLeft="@dimen/padding_5"
+            android:paddingRight="@dimen/padding_15"
+            android:paddingBottom="@dimen/padding_3"
+            android:gravity="center_vertical"
+            android:text="cxlvjfkjh"
+            android:layout_toLeftOf="@+id/head_view"
+            android:maxWidth="@dimen/padding_180"
+            />
+    </RelativeLayout>
+</LinearLayout>

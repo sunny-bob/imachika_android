@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/line"
+    tools:context="com.itmg.imachika.ui.ReportActivity">
+
+    <include layout="@layout/include_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_20"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_10"
+                android:paddingLeft="@dimen/padding_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_10"
+                    android:text="@string/report_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_18" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_1"
+                    android:background="@color/line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/padding_5"
+                    android:padding="@dimen/padding_5">
+
+                    <CheckBox
+                        android:id="@+id/radio_btn1"
+                        style="@style/radio_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding_10"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:text="@string/report_case_1"
+                        android:textSize="@dimen/text_size_14"/>
+
+                    <CheckBox
+                        android:id="@+id/radio_btn2"
+                        style="@style/radio_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding_10"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:text="@string/report_case_2"
+                        android:textSize="@dimen/text_size_14"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_10">
+
+                    <CheckBox
+                        android:id="@+id/radio_btn3"
+                        style="@style/radio_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding_10"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:text="@string/report_case_3"
+                        android:textSize="@dimen/text_size_14"/>
+
+                    <CheckBox
+                        android:id="@+id/radio_btn4"
+                        style="@style/radio_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding_10"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:text="@string/report_case_4"
+                        android:textSize="@dimen/text_size_14"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_10">
+
+                    <CheckBox
+                        android:id="@+id/radio_btn5"
+                        style="@style/radio_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding_10"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:text="@string/report_case_5"
+                        android:textSize="@dimen/text_size_14"/>
+
+                    <CheckBox
+                        android:id="@+id/radio_btn6"
+                        style="@style/radio_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding_10"
+                        android:layout_marginRight="@dimen/padding_10"
+                        android:text="@string/report_case_6"
+                        android:textSize="@dimen/text_size_14"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_1"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:background="@color/line" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_10"
+                    android:text="@string/report_pic"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_18" />
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="@dimen/padding_100"
+                    android:layout_height="@dimen/padding_100"
+                    android:layout_marginLeft="@dimen/padding_10"
+                    android:src="@drawable/add_img" />
+
+                <EditText
+                    android:id="@+id/et_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_60"
+                    android:layout_margin="@dimen/padding_10"
+                    android:background="@color/white"
+                    android:gravity="top|left"
+                    android:hint="@string/report_con_hint" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/report_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_20"
+                android:text="@string/detail_jubao"
+                android:background="@drawable/shape_black"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_18"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

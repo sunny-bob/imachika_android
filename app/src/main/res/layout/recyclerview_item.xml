@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10"
+        >
+        <ImageView
+            android:id="@+id/head_img"
+            android:layout_width="@dimen/padding_80"
+            android:layout_height="@dimen/padding_80"
+            android:src="@drawable/xiaoming"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head_img"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:layout_marginTop="@dimen/padding_5">
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nickname"
+                android:textSize="@dimen/text_size_18"
+                />
+            <ImageView
+                android:id="@+id/img_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/head_man"
+                android:layout_marginLeft="@dimen/padding_10"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1km 以内"
+            android:layout_toRightOf="@id/head_img"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:layout_marginTop="@dimen/padding_50"
+            android:textSize="@dimen/text_size_18"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">いまチカ</string>
+    <string name="title">标题</string>
+    <string name="login">注册</string>
+    <string name="exit">退出</string>
+    <string name="register">注册</string>
+    <!--<string name="registerOrLogin">注册或登录</string>-->
+    <string name="userInfo">个人信息</string>
+    <string name="cancel">取消</string>
+    <string name="home">首页</string>
+    <string name="chat">聊天</string>
+    <string name="add">投稿</string>
+    <string name="address">地址</string>
+    <string name="me">我</string>
+    <string name="search">搜索</string>
+    <string name="name">名称</string>
+    <string name="message">暂无消息</string>
+    <string name="contact">最近联系人</string>
+    <string name="hint">添加上传图片的说明</string>
+    <string name="near">附近的人</string>
+    <string name="error">网络请求失败，请检查网络连接</string>
+    <string name="register_title">注册</string>
+    <string name="login_info">注册后\n人工智能会学习你的喜好\n喜欢的人的添加和管理\n和附近的人沟通交流\n本周内推荐的对象活动通过电子邮件通知\n在国外也能用日语使用</string>
+    <string name="FaceBook">Facebook 注册</string>
+    <string name="Google"> Google 注册</string>
+    <string name="Line">Line 注册</string>
+    <string name="Mail">邮箱 注册</string>
+    <string name="treaty_">和</string>
+    <string name="treaty">我同意</string>
+    <string name="company_email">Copyright © imachika.com</string>
+    <string name="web_url1">使用条款</string>
+    <string name="web_url2">隐私政策</string>
+    <string name="new_notice">新消息通知</string>
+
+    <string name="no_datas">附近没有找到</string>
+    <string name="no_datas_b">相关结果</string>
+
+    <string name="commend_one">附近今日或这周内的活动</string>
+    <string name="commend_two">附近公园</string>
+    <string name="commend_three">附近餐馆</string>
+    <string name="commend_four">附近咖啡店</string>
+    <string name="commend_five">附近商场</string>
+
+    <string name="toast_location">无法定位，请打开定位服务</string>
+    <string name="toast_close_app">再按一次退出程序</string>
+    <string name="toast_publish">发布成功</string>
+    <string name="toast_report">举报成功</string>
+    <string name="toast_review">请输入您的评论</string>
+
+
+    <!-- 商户详情页面 -->
+    <string name="open_map">导航</string>
+    <string name="share">分享</string>
+    <string name="hint_content">隐藏内容</string>
+    <string name="jubao">投诉</string>
+    <string name="detail_jubao">投诉</string>
+    <string name="hint_item">隐藏</string>
+    <string name="show_item">显示</string>
+    <string name="re_review">评论</string>
+    <string name="zan">赞</string>
+    <string name="author">投稿者</string>
+    <string name="review">评论</string>
+    <string name="cancle_collect">取消收藏</string>
+    <string name="collect">收藏</string>
+    <string name="phone_num">电话</string>
+    <string name="talk">聊天</string>
+    <string name="re_review_hint">发表评论</string>
+    <string name="send">发送</string>
+    <string name="map">地图</string>
+    <string name="list">列表</string>
+
+    <string name="evaluate_review_hint">添加评论...</string>
+    <string name="search_hint_content">咖啡、活动、温泉...</string>
+    <string name="search_hint_add">地址</string>
+    <string name="search_hint_add_now">当前位置</string>
+    <string name="opening_time">营业时间：</string>
+
+    <string name="sort_share">分享</string>
+
+    <!-- 登录页面 -->
+    <string name="login_title">登录</string>
+    <string name="hint_num">邮箱</string>
+    <string name="hint_psd">密码</string>
+    <string name="FaceBook_reg">Facebook 登录</string>
+    <string name="Google_reg"> Google 登录</string>
+    <string name="Line_reg">Line 登录</string>
+
+    <!-- report -->
+    <string name="report_content">请选择举报原因</string>
+    <string name="report_case_1">骗局</string>
+    <string name="report_case_2">恶作剧</string>
+    <string name="report_case_3">这不是真的</string>
+    <string name="report_case_4">侵犯版权</string>
+    <string name="report_case_5">未成年人</string>
+    <string name="report_case_6">其他</string>
+    <string name="report_pic">证据照片</string>
+    <string name="report_con_hint">更多细节</string>
+
+    <!-- facebook app id -->
+    <string name="facebook_app_id">2008632952691077</string>
+    <string name="fb_login_protocol_scheme">fb2008632952691077</string>
+
+    <string name="login_check_tost">需要同意条款和政策</string>
+    <string name="login_email">已经有一个帐户</string>
+    <!-- google -->
+    <string name="google_server_client_id">37459863309-lk3brhftvm4bp3kfc81ltj85r5kjn2j2.apps.googleusercontent.com</string>
+    <!--<string name="fb_login_protocol_scheme">fb2008632952691077</string>-->
+
+    <!-- 投稿 -->
+
+    <string name="submit_title_one">店铺</string>
+    <string name="submit_title_two">个人服务</string>
+    <string name="submit_title_three">活动</string>
+
+    <string name="pic_con">标题</string>
+    <string name="submit_hint_one">在这里输入详细信息</string>
+
+    <string name="submit_hint_two">输入多个要搜索的关键字\ n（例如，葡萄酒，圈子，家庭主妇）</string>
+    <string name="submit_show">详细的输入</string>
+
+    <string name="submit_hint">隐藏详细的输入</string>
+    <string name="submit_price_hint">价格（请输入数字，单位：日元）</string>
+    <string name="submit_start_time_hint">开始時間</string>
+    <string name="submit_end_time_hint">结束時間</string>
+    <string name="submit_tel_hint">存储电话号码</string>
+    <string name="submit_phone_hint">个人电话（未透露）</string>
+    <string name="submit_publish">掲載</string>
+
+    <string name="submit_useasda">カテゴリ</string>
+    <string name="submit_place">場所</string>
+
+    <string name="net_bad_retry">网络异常，请检查网络连接</string>
+    <string name="toast_bad_email">邮箱格式不正确</string>
+    <string name="toast_null_email">邮箱或密码不能为空</string>
+    <string name="photo">图片</string>
+
+
+    <!-- Me -->
+    <string name="me_collect">我的收藏</string>
+    <string name="me_version">版本信息</string>
+    <string name="me_title">我</string>
+    <string name="takePhoto">拍照</string>
+    <string name="selectPhoto">相册</string>
+    <string name="cancel_img">取消</string>
+    <string name="ok_img">确定</string>
+    <string name="save">保存</string>
+    <string name="save_success">保存成功</string>
+    <string name="userInfo_img">图像</string>
+    <string name="userInfo_name">名称</string>
+    <string name="userInfo_sex">性别</string>
+    <string name="userInfo_male">男</string>
+    <string name="userInfo_female">女</string>
+    <string name="userInfo_tel">手机号</string>
+    <string name="userInfo_address">区域</string>
+    <string name="userInfo_sign">个性签名</string>
+
+    <string name="complete">完成</string>
+
+    <string name="toast_login_psd_error">密码不一致</string>
+    <string name="toast_login_not_reg">email用户没有注册</string>
+    <string name="toast_login_email_error">email格式错误</string>
+    <string name="toast_login_user_registered">email用户已经存在</string>
+
+    <string name="collection_none">还没有收藏</string>
+
+    <!--"TabKey1.text" = "首页";-->
+    <!--"TabKey2.text" = "聊天";-->
+    <!--"TabKey3.text" = "投稿";-->
+
+    <!--"SearchholderKey.text" = "咖啡、活动、温泉...";-->
+    <!--"SearchAddressholderKey.text" = "地址";-->
+
+    <!--"CurrentAddressholderKey.text" = "当前位置";-->
+    <!--"MapKey.text" = "地图";-->
+    <!--"ShareKey.text" = "分享";-->
+    <!--"ReportKey.text" = "投诉";-->
+    <!--"ListKey.text" = "List";-->
+    <!--"CancelKey.text" = "取消";-->
+    <!--"OKKey.text" = "确定";-->
+    <!--"qianmingKey.text" = "个性签名";-->
+    <!--"RegionKey.text" = "区域";-->
+    <!--"blacklistKey.text" = "拉黑";-->
+    <!--"blacklist1Key.text" = "已被拉黑";-->
+    <!--"blackinfoKey.text" = "加入黑名单，你将不再收到对方的消息";-->
+    <!--"pinglunKey.text" = "评论";-->
+    <!--"shopKey.text" = "店铺管理";-->
+    <!--"guanzhu1Key.text" = "已关注";-->
+    <!--"guanzhu2Key.text" = "关注";-->
+    <!--"xiangxiKey.text" = "详细资料";-->
+    <!--"shop1Key.text" = "店铺认领";-->
+    <!--"shop2Key.text" = "认证中...";-->
+    <!--"shop3Key.text" = "店铺管理";-->
+    <!--"daohangKey.text" = "导航";-->
+    <!--"uploadPhotoKey.text" = "上传照片";-->
+
+    <!--"zanKey.text" = "赞";-->
+    <!--"pinglunKey.text" = "评论";-->
+    <!--"callKey.text" = "电话";-->
+    <!--"shoucang2Key.text" = "取消收藏";-->
+    <!--"shoucang1Key.text" = "收藏";-->
+    <!--"hide1Key.text" = "隐藏";-->
+    <!--"hide2Key.text" = "显示";-->
+    <!--"hide3Key.text" = "内容是隐藏的";-->
+    <!--"photo1Key.text" = "拍照";-->
+    <!--"photo2Key.text" = "相册";-->
+    <!--"commnetKey.text" = "评论";-->
+
+    <!--"tuijian1Key.text" = "附近今日或这周内的活动";-->
+    <!--"tuijian2Key.text" = "附近公园";-->
+    <!--"tuijian3Key.text" = "附近餐馆";-->
+    <!--"tuijian4Key.text" = "附近咖啡店";-->
+    <!--"tuijian5Key.text" = "附近商场";-->
+
+    <!--"AuthorKey.text" = "投稿者";-->
+    <!--"title1Key.text" = "店铺";-->
+    <!--"title2Key.text" = "个人服务";-->
+    <!--"title3Key.text" = "活动";-->
+    <!--"titleKey.text" = "标题";-->
+    <!--"categoryKey.text" = "分类";-->
+    <!--"starttimeKey.text" = "开始时间";-->
+    <!--"endtimeKey.text" = "结束时间";-->
+    <!--"shoptel1Key.text" = "店铺电话";-->
+    <!--"shoptel2Key.text" = "个人电话(保密)";-->
+    <!--"addressKey.text" = "地址";-->
+    <!--"hide1tagKey.text" = "详细";-->
+    <!--"hide2tagKey.text" = "详细隐藏";-->
+    <!--"taginfoKey.text" = " 搜索关键字 \n (例：酒、商场、妇女)";-->
+    <!--"detailinfoKey.text" = " 在这里输入详细信息";-->
+    <!--"submitKey.text" = "发布";-->
+    <!--"PriceKey.text" = "价格（请输入数字，单位：日元）";-->
+    <!--"finshKey.text" = "完成";-->
+    <!--"addcommentKey.text" = "添加评论...";-->
+    <!--"sendKey.text" = "发送";-->
+    <!--"sendinfoKey.text" = "发表评论";-->
+    <!--"mecollectKey.text" = "我的收藏";-->
+    <!--"meMemberKey.text" = "会员卡／印章卡";-->
+    <!--"meguanzhuKey.text" = "关注我的";-->
+    <!--"mefabuKey.text" = "我的发布";-->
+    <!--"mefabu1Key.text" = "他的发布";-->
+    <!--"mescanKey.text" = "扫描";-->
+    <!--"mesetKey.text" = "设置";-->
+    <!--"set1Key.text" = "接收通知";-->
+    <!--"set2Key.text" = "声音";-->
+
+    <!--"list1Key.text" = "编辑";-->
+    <!--"list2Key.text" = "删除";-->
+    <!--"list3Key.text" = "公开";-->
+    <!--"list4Key.text" = "非公开";-->
+
+    <!--"metitleKey.text" = "个人信息";-->
+    <!--"me1Key.text" = "头像";-->
+    <!--"me2Key.text" = "名字";-->
+    <!--"me3Key.text" = "我的二维码";-->
+    <!--"me4Key.text" = "性别";-->
+    <!--"me5Key.text" = "个人电话";-->
+    <!--"me6Key.text" = "个人签名";-->
+
+    <!--"exitKey.text" = "退出";-->
+    <!--"exitinfoKey.text" = "你要退出当前用户？";-->
+    <!--"sex1Key.text" = "男";-->
+    <!--"sex2Key.text" = "女";-->
+    <!--"baocunKey.text" = "保存";-->
+    <!--"baocun1Key.text" = "保存成功";-->
+
+    <!--"loginKey.text" = "登录";-->
+    <!--"registerKey.text" = "注册";-->
+    <!--"EmailregisterKey.text" = "邮箱注册";-->
+    <!--"EmailKey.text" = "邮箱";-->
+    <!--"EmailpassKey.text" = "密码";-->
+    <!--"login1Key.text" = "登录";-->
+    <!--"guize1Key.text" = "我同意服务条款和隐私政策";-->
+    <!--"guize2Key.text" = "服务条款";-->
+    <!--"guize3Key.text" = "隐私政策";-->
+    <!--"register1Key.text" = "注册";-->
+    <!--"register2Key.text" = "注册";-->
+    <!--"PassresetKey.text" = "忘记密码";-->
+    <!--"sendEmailKey.text" = "发送邮件";-->
+    <!--"codeKey.text" = "验证码";-->
+    <!--"pass1Key.text" = "请输入一个新的密码";-->
+    <!--"pass2Key.text" = "请再次输入您的新密码";-->
+    <!--"pass3Key.text" = "密码修改";-->
+    <!--"backKey.text" = "返回";-->
+    <!--"Emailregister1Key.text" = "邮箱注册";-->
+    <!--"RegisterinfoKey.text" = "注册后\n人工智能会学习你的喜好\n喜欢的人的添加和管理\n和附近的人沟通交流\n本周内推荐的对象活动通过电子邮件通知\n在国外也能用日语使用";-->
+
+    <!--//登录-->
+    <!--"loginerror1Key.text" = "密码错误";-->
+    <!--"loginerror2Key.text" = "email用户没有注册";-->
+    <!--"loginerror3Key.text" = "email格式错误";-->
+    <!--"loginerror4Key.text" = "email用户已经存在";-->
+    <!--"loginerror5Key.text" = "验证码错误";-->
+    <!--"RequestErrorKey.text" = "网络异常，请稍后再试";-->
+    <!--"NotCommentKey.text" = "你还为未评论";-->
+    <!--"RemakeKey.text" = "重拍";-->
+    <!--"UsephotoKey.text" = "使用照片";-->
+    <!--"guize4Key.text" = "需要同意条款和政策";-->
+
+    <!--"logininfo1Key.text" = "请输入您的电子邮件";-->
+    <!--"logininfo2Key.text" = "密码不能为空";-->
+    <!--"logininfo3Key.text" = "验证码已发送，请检查您的电子邮件";-->
+    <!--"logininfo4Key.text" = "下一步";-->
+    <!--"logininfo5Key.text" = "请输入验证码";-->
+    <!--"logininfo6Key.text" = "新密码不匹配";-->
+    <!--"logininfo7Key.text" = "验证码错误";-->
+    <!--"logininfo8Key.text" = "密码已重置，请登录";-->
+    <!--"logininfo9Key.text" = "请输入你的名字";-->
+    <!--"info1Key.text" = "发布成功";-->
+    <!--"info2Key.text" = "请输入您的评论";-->
+    <!--"info3Key.text" = "图片保存成功";-->
+    <!--"info4Key.text" = "上传成功";-->
+    <!--"info5Key.text" = "分享给朋友们";-->
+
+    <!--"jubao1Key.text" = "诈骗";-->
+    <!--"jubao2Key.text" = "恶作剧";-->
+    <!--"jubao3Key.text" = "假冒伪劣";-->
+    <!--"jubao4Key.text" = "侵犯版权";-->
+    <!--"jubao5Key.text" = "未成年";-->
+    <!--"jubao6Key.text" = "其他";-->
+    <!--"jubao7Key.text" = "请选择举报原因";-->
+    <!--"jubao8Key.text" = "证据照片";-->
+    <!--"jubao9Key.text" = "详细";-->
+    <!--"jubao10Key.text" = "请选择投诉的原因";-->
+    <!--"jubao11Key.text" = "举报成功";-->
+
+    <!--"near1Key.text" = "已清除我的位置信息";-->
+    <!--"near2Key.text" = "清除位置信息并退出";-->
+    <!--"near3Key.text" = "清除位置信息后，别人将不能查看到你？";-->
+    <!--"near4Key.text" = "查看全部";-->
+    <!--"near5Key.text" = "只看男生";-->
+    <!--"near6Key.text" = "只看女生";-->
+    <!--"nearKey.text" = "附近的人";-->
+
+    <!--"near11Key.text" = "附近暂无在线好友";-->
+    <!--"near12Key.text" = "附近没有找到";-->
+    <!--"near13Key.text" = "相关结果";-->
+    <!--"near14Key.text" = "还没有收藏";-->
+    <!--"near15Key.text" = "还没有会话记录";-->
+
+    <!--"setting1Key.text" = "设置";-->
+    <!--"setting2Key.text" = "您想打开通知来接收消息或附近的事件信息吗？";-->
+    <!--"setting3Key.text" = "访问相册是必要的";-->
+    <!--"setting4Key.text" = "您的位置无法找到，请通过位置设置进行访问";-->
+
+    <!--"huiyuan1Key.text" = "会员卡";-->
+    <!--"huiyuan2Key.text" = "优惠券";-->
+    <!--"info11Key.text" = "还没朋友关注你";-->
+    <!--"info12Key.text" = "还没有关注";-->
+    <!--"info13Key.text" = "我还没有发布";-->
+    <!--"info14Key.text" = "发布";-->
+
+</resources>

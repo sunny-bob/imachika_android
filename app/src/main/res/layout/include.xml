@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_bg"
+        android:padding="@dimen/padding_5"
+        >
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/padding_30"
+            android:layout_height="@dimen/padding_30"
+            android:layout_centerVertical="true"
+            android:src="@drawable/go_back" />
+        <ImageView
+            android:id="@+id/img_more"
+            android:layout_width="@dimen/padding_30"
+            android:layout_height="@dimen/padding_30"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_more" />
+        <TextView
+            android:id="@+id/tv_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_more"
+            android:text="@string/map"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18"
+            android:layout_marginRight="@dimen/padding_5"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_30"
+            android:text="@string/list"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18"
+            />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:ems="11"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_18"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    tools:context="com.itmg.imachika.ui.SearchActivity">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_bg"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="@dimen/text_size_18"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:textColor="@color/white"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/padding_10"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/search_map_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/search_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_share"
+                    android:layout_marginRight="@dimen/padding_10"
+                    />
+
+                <TextView
+                    android:id="@+id/search_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_18"
+                    android:textColor="@color/white"
+                    android:text="@string/map"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/search_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_18"
+                android:textColor="@color/white"
+                android:text="@string/list"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/map"/>
+
+    <LinearLayout
+            android:id="@+id/search_list_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_shape"
+                android:padding="@dimen/padding_5"
+                android:singleLine="true"
+                android:drawableLeft="@drawable/seacher"
+                android:layout_margin="@dimen/padding_10"
+                android:hint="@string/search_hint_content"
+                android:textColorHint="@color/title_text"
+                android:textSize="@dimen/padding_15"
+                android:textColor="@color/black"
+                android:imeOptions="actionSearch"
+                />
+
+            <LinearLayout
+                android:id="@+id/search_old_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_10"
+                    android:layout_marginRight="@dimen/padding_10">
+
+                    <LinearLayout
+                        android:id="@+id/layout_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_shape"
+                        android:padding="@dimen/padding_5"
+                        android:gravity="center_vertical"
+                        >
+
+                        <ImageView
+                            android:layout_width="@dimen/padding_20"
+                            android:layout_height="@dimen/padding_20"
+                            android:src="@drawable/location"
+                            />
+
+                        <!--<TextView-->
+                        <!--android:id="@+id/search_tv_now"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textColor="@color/blue"-->
+                        <!--android:text="@string/search_hint_add_now"/>-->
+
+                        <EditText
+                            android:id="@+id/et_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:background="@color/white"
+                            android:layout_marginLeft="@dimen/padding_5"
+                            android:hint="@string/search_hint_add_now"
+                            android:textSize="@dimen/padding_15"
+                            android:gravity="center_vertical"
+                            android:textColorHint="@color/blue"
+                            android:textColor="@color/black"
+                            android:imeOptions="actionSearch"
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/search_delete_iv"
+                        android:layout_width="@dimen/padding_15"
+                        android:layout_height="@dimen/padding_15"
+                        android:background="@drawable/icon_delete"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:visibility="visible"
+                        android:layout_marginRight="@dimen/padding_10"/>
+
+                </RelativeLayout>
+
+                <ScrollView
+                    android:id="@+id/search_scrollview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/padding_10">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_10"
+                        android:orientation="vertical">
+                        <com.itmg.imachika.view.MyGridView
+                            android:id="@+id/grid_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:numColumns="3"
+                            android:horizontalSpacing="@dimen/padding_10"
+                            android:verticalSpacing="@dimen/padding_10"
+                            />
+                        <com.itmg.imachika.view.MyExpandListView
+                            android:id="@+id/ex_listView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff"
+                            android:layout_marginTop="@dimen/padding_10"
+                            />
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+                android:id="@+id/search_lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:divider="@null"
+                android:visibility="visible">
+            </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/shop_list_no_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/padding_140"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/padding_40"
+                        android:gravity="center"
+                        android:text="@string/no_datas"/>
+
+                    <TextView
+                        android:id="@+id/no_data_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/padding_40"
+                        android:gravity="center"
+                        android:text=""/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/padding_40"
+                        android:gravity="center"
+                        android:text="@string/no_datas_b"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
